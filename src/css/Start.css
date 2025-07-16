@@ -1,0 +1,51 @@
+@media (max-width: 576px){
+
+}
+
+
+@media (max-width: 355px){
+
+    .phone {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .embossed-layer {
+        background-color: aliceblue;
+        border: 3px outset rgb(194, 201, 207);
+        padding: 3px;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .embossed-layer p {
+        font-size: 12px;
+    }
+
+    .embossed-layer li {
+        font-size: 12px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #link-buttons {
+        border: 2px outset #FAAFCC;
+        background-color: #FFC8DC;
+        border-radius: 7px;
+        padding: 7px;
+        min-width: 290px;
+    }
+}

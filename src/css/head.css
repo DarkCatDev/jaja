@@ -1,0 +1,26 @@
+@media (max-width: 576px){
+
+}
+
+
+@media (max-width: 355px){
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
+
+    .head h2 {
+        margin-top: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #c355ff;
+        margin-bottom: 10px;
+    }
+    .no-underline {
+        text-decoration: none;
+    }
+
+}

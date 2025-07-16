@@ -1,0 +1,18 @@
+
+@media (max-width: 576px){
+
+}
+
+
+@media (max-width: 355px){
+    #PSA {
+        width: 100px;
+    }
+
+    .phone {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+}

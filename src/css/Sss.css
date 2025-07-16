@@ -1,0 +1,32 @@
+
+@media (max-width: 576px){
+
+}
+
+
+@media (max-width: 355px){
+    #img1 {
+        width: 250px;
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #img2 {
+        width: 100px;
+    }
+
+    .wrap {
+        max-width: 250px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-decoration: none;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        
+    }
+}
